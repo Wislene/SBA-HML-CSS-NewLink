@@ -1,0 +1,186 @@
+/* External CSS StyleSheet */
+/* Media queries */
+@media only screen and (orientation: landscape) {
+  @media media-type and (media-feature) {
+  }
+  @media print {
+  }
+  @media screen and (max-width: 600px) {
+  }
+}
+@media only screen and (orientation: portrait) {
+}
+
+body {
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px;
+}
+
+.newsletter {
+  text-align: center;
+}
+
+.Section {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  color: gray;
+  padding: 20px;
+}
+
+.Main-Section {
+  width: 960px;
+  height: 1000;
+  border: 10px solid red;
+}
+div {
+  background: lavender;
+  margin: auto;
+}
+
+/* Benefits Page Styles */
+.card-group {
+  display: flex;
+}
+.card {
+  display: flex;
+}
+.card-body {
+  display: flex;
+}
+
+.matchatype-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.matchatype-table th,
+.matchatype-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.matchatype-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: left;
+}
+
+.subscribe-button {
+  background-color: rgb(167, 9, 9);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 300px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.15s;
+  align-content: center;
+}
+
+.subscribe-button:hover {
+  opacity: 0.8;
+}
+
+.subscribe-button:active {
+  opacity: 0.5;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Contact-styles */
+
+.submit-button {
+  background-color: white;
+  color: rgb(60, 60, 121);
+  border-color: blue;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  height: 36px;
+  width: 62px;
+  cursor: pointer;
+  transition: background-color 1s, color 1s;
+}
+
+.submit-button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.submit-button:active {
+  opacity: 0.7;
+}
+
+.submit-button:active {
+  opacity: 0.5;
+}
+
+/* Animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+footer {
+  animation: fade-in 1s;
+}
+
+/* Inline CSS */
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.image-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.fit-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text {
+  text-align: center;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+}
